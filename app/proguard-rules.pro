@@ -1,0 +1,2 @@
+# AdKiosk
+-keepattributes Signature

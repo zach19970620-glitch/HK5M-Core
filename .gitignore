@@ -1,0 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.apk
+*.ap_
+*.aab
+app/build/
+# RKNN 模型过大（尤其 VGGFace ~358MB），不入库；请本地放入 assets/models/
+app/src/main/assets/models/*.rknn
+.kotlin
